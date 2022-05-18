@@ -17,14 +17,65 @@
     <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
     <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <style type="text/css">
+      /*Profile card 2*/
+.profile-card-2 .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card-2 .card-body{
+    position:relative;
+}
+.profile-card-2 .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -42px;
+  left: 15%;
+  max-width: 75px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.profile-card-2 h5{
+    font-weight:600;
+    color:#6ab04c;
+}
+.profile-card-2 .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card-2 .icon-block{
+    float:left;
+    width:100%;
+}
+.profile-card-2 .icon-block a{
+    text-decoration:none;
+}
+.profile-card-2 i {
+  display: inline-block;
+    font-size: 16px;
+    color: #6ab04c;
+    text-align: center;
+    border: 1px solid #6ab04c;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card-2 i:hover {
+  background-color:#6ab04c;
+  color:#fff;
+}
+
+.checked {
+  color: orange;
+  margin-bottom: 10px;
+}
+    </style>
   </head>
   <body id="top">
     <header class="bg-light">
@@ -53,6 +104,7 @@
   </div>
   <div class="wave-bg"></div>
 </header>
+
 <div class="section pt-4 px-3 px-lg-4" id="about">
   <div class="container-narrow">
     <div class="row">
@@ -73,16 +125,20 @@
             <div class="pb-1 fw-bolder">yandrinurdiana@gmail.com</div>
           </div>
           <div class="col-sm-2">
-            <div class="pb-1">Phone (WhatsApp Only) :</div>
+            <div class="pb-1">Linkedin:</div>
           </div>
           <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">+6282137159605</div>
+            <div class="pb-1 fw-bolder">https://bit.ly/yandri-nurdiana</div>
+          </div>
+          <div class="col-sm-5">
+            <div class="pb-1">Phone (WhatsApp Only) : </div> 
           </div>
           <div class="col-sm-2">
-            <div class="pb-1">Address:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Yogyakarta</div>
+            <div class="pb-1 fw-bolder">+6282137159605</div>
+          </div><br>
+          <div class="col-sm-5">
+            <div class="pb-1">Address:
+          <span style="font-weight: bold;">Yogyakarta</span></div>
           </div>
          
         </div>
@@ -97,70 +153,258 @@
     <div class="text-center mb-5">
       <h2 class="marker marker-center">My Skills</h2>
     </div>
-    <div class="text-center">
-      <p class="mx-auto mb-3" style="max-width:600px">I am a quick learner and specialize in multitude of skills required for Web Application Development</p>
-    </div>
+   
     <div class="bg-light p-3">
       <div class="row">
-        <div class="col-md-5">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML</span><span>100%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+          
+
+        <div class="card-deck">
+         <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="py-2 text-center">
+                      <img src="images/code/html.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+            
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">JavaScript</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Kotlin</span><span>50%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
         </div>
-        <div class="col-md-5 offset-md-2">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">PHP</span><span>100%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+        <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="py-1 text-center">
+            <img src="images/code/kotlin.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">WordPress</span><span>50%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+      
+      <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="py-1 text-center">
+            <img src="images/code/js.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;"/>
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>80%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 80%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                    <div class="py-1 text-center">
+            <img src="images/code/php.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+
           </div>
-<div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Framework Laravel</span><span>90%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                    <div class="py-1 text-center">
+           <div class="py-1 text-center">
+            <img src="images/code/wordpress.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Flutter</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
         </div>
       </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                  <div class="py-1 text-center">
+            <img src="images/code/mysql.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+          </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                <div class="py-1 text-center">
+           <img src="images/code/laravel.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+          </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                  <div class="py-1 text-center">
+           <img src="images/code/flutter.png" alt="profile-image" class="rounded mx-auto d-block" width="20%" style="margin-top: 10px;" />
+            <br>
+            <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star "></span>
+<span class="fa fa-star "></span>
+          </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+      
+      
+</div>
+    </div>
+  </div>
+</div>
+      <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="mt-3 px-1">
+         
+        </div>
+        
+      </div>
+    </div>
+
+<div class="section px-3 px-lg-4 pt-5" id="skills">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">My Project</h2>
+    </div>
+   
+    <div class="bg-light p-3">
+      <div class="row">
+          
+
+        <div class="card-deck">
+         <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/generator nama bayi.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/android.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Baby Name Generator App</h5>
+                        <p class="card-text">This application is used to help parents find the baby name they want</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+        <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/perenting.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/android.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Parenting App</h5>
+                        <p class="card-text">Consultation application via realtime chat to help parents who want to consult about their children.</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+      
+      <div class="col-md-4">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/galeri apps.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/android.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Gallery app</h5>
+                        <p class="card-text">This application helps the therapist to upload photos of the patient's face which will be used as a treatment history</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/webview info bakpia.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/android.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Application information about the product</h5>
+                        <p class="card-text">This application was created to help customers who want to get promo information, prices, and more from a product</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/batu lumpang.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/domain.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Tour and travel website</h5>
+                        <p class="card-text">Website for information about tourist attractions and booking travel tickets online</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+
+        <div class="col-md-4" style="margin-top: 20px;">
+            <div class="card profile-card-2">
+                    <div class="card-img-block">
+
+                        <img class="img-fluid" src="images/project/obelix hills.jpg" alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-5">
+                        <img src="images/os/domain.png" alt="profile-image" class="profile"/>
+                        <h5 class="card-title">Tour and travel website</h5>
+                        <p class="card-text">Website for information about tourist attractions and booking travel tickets online</p>
+                        <!-- <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div> -->
+                    </div>
+                </div>
+                <!-- <p class="mt-3 w-100 float-left text-center"><strong>Social Profile Card</strong></p> -->
+        </div>
+      
+      
+</div>
     </div>
   </div>
 </div>
