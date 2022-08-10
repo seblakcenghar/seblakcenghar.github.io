@@ -1,6 +1,6 @@
 function shuffle(array) {
   var currentIndex = array.length,
-    randomIndex;
+  randomIndex;
 
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
@@ -10,8 +10,8 @@ function shuffle(array) {
 
     // And swap it with the current element.
     [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex],
-      array[currentIndex],
+    array[randomIndex],
+    array[currentIndex],
     ];
   }
 
@@ -47,17 +47,17 @@ function spin() {
     Sanken[0],
     Electrolux[0],
     JblSpeaker[0],
-  ]);
+    ]);
   // console.log(Hasil[0]);
 
   // Ambil value item yang terpilih
-  if (MagicRoaster.includes(Hasil[0])) SelectedItem = "Magic Roaster";
-  if (Sepeda.includes(Hasil[0])) SelectedItem = "Sepeda Aviator";
-  if (RiceCooker.includes(Hasil[0])) SelectedItem = "Rice Cooker Philips";
-  if (LunchBox.includes(Hasil[0])) SelectedItem = "Lunch Box Lock&Lock";
-  if (Sanken.includes(Hasil[0])) SelectedItem = "Air Cooler Sanken";
-  if (Electrolux.includes(Hasil[0])) SelectedItem = "Electrolux Blender";
-  if (JblSpeaker.includes(Hasil[0])) SelectedItem = "JBL Speaker";
+  if (MagicRoaster.includes(Hasil[0])) SelectedItem = "A";
+  if (Sepeda.includes(Hasil[0])) SelectedItem = "D";
+  if (RiceCooker.includes(Hasil[0])) SelectedItem = "E";
+  if (LunchBox.includes(Hasil[0])) SelectedItem = "4";
+  if (Sanken.includes(Hasil[0])) SelectedItem = "G";
+  if (Electrolux.includes(Hasil[0])) SelectedItem = "J";
+  if (JblSpeaker.includes(Hasil[0])) SelectedItem = "7";
 
   // Proses
   box.style.setProperty("transition", "all ease 5s");
@@ -70,11 +70,8 @@ function spin() {
   // Munculkan Alert
   setTimeout(function () {
     applause.play();
-    swal(
-      "Congratulations",
-      "You Won The " + SelectedItem + ".",
-      "success"
-    );
+    // swal(
+    //   "Huruf "+ SelectedItem );
   }, 5500);
 
   // Delay and set to normal state

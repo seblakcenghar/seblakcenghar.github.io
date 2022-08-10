@@ -13,7 +13,7 @@ body {
   height: 100vh;
   overflow: hidden;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(https://source.unsplash.com/hNvr4nqFIcQ/2500x1800);
+  url(https://source.unsplash.com/hNvr4nqFIcQ/2500x1800);
   background-size: cover;
 }
 
@@ -90,79 +90,79 @@ span {
 
 .font {
   color: white;
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .box1 .span1 b {
   position: absolute;
-  top: 39%;
-  right: 60%;
+  top: 34%;
+  right: 83%;
   transform: rotate(200deg);
   text-align: center;
 }
 
 .box1 .span2 b {
   position: absolute;
-  top: 25%;
-  right: 57%;
+  top: 14%;
+  right: 72%;
   transform: rotate(-130deg);
 }
 
 .box1 .span3 b {
   position: absolute;
-  top: 20%;
-  right: 36%;
+  top: 9%;
+  right: 45%;
   transform: rotate(-90deg);
 }
 
 .box1 .span4 b {
   position: absolute;
-  top: 25%;
-  right: 15%;
+  top: 16%;
+  right: 21%;
   transform: rotate(-45deg);
 }
 
 .box1 .span5 b {
   position: absolute;
-  top: 38%;
-  right: 10%;
+  top: 35%;
+  right: 12%;
   transform: rotate(-15deg);
   text-align: center;
 }
 
 .box2 .span1 b {
   position: absolute;
-  top: 34%;
-  right: 70%;
+  top: 33%;
+  right: 81%;
   transform: rotate(200deg);
 }
 
 .box2 .span2 b {
   position: absolute;
-  top: 20%;
-  right: 60%;
+  top: 18%;
+  right: 67%;
   transform: rotate(-130deg);
   text-align: center;
 }
 
 .box2 .span3 b {
   position: absolute;
-  top: 15%;
-  right: 40%;
+  top: 7%;
+  right: 47%;
   transform: rotate(270deg);
 }
 
 .box2 .span4 b {
   position: absolute;
-  top: 27%;
-  right: 20%;
+  top: 14%;
+  right: 24%;
   transform: rotate(310deg);
 }
 
 .box2 .span5 b {
   position: absolute;
-  top: 35%;
-  right: 10%;
+  top: 33%;
+  right: 9%;
   transform: rotate(-20deg);
   text-align: center;
 }
