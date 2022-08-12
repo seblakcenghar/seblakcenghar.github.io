@@ -72,7 +72,7 @@
         <script>
             // Create new wheel object specifying the parameters at creation time.
             let theWheel = new Winwheel({
-                'numSegments'  : 11,     // Specify number of segments.
+                'numSegments'  : 9,     // Specify number of segments.
                 'outerRadius'  : 450,   // Set outer radius so wheel fits inside the background.
                 'textFontSize' : 48,    // Set font size as desired.
                 'centerX'    : 470,         // Set x and y as number.
@@ -88,21 +88,19 @@
                 {'fillStyle' : '#7de6ef', 'text' : 'G'},
                 {'fillStyle' : '#e7706f', 'text' : 'H'},
                 {'fillStyle' : '#e7706f', 'text' : 'I'},
-                {'fillStyle' : '#e7706f', 'text' : 'J'},
-                {'fillStyle' : '#e7706f', 'text' : 'K'},
                 ],
                 'animation' :           // Specify the animation to use.
                 {
                     'type'     : 'spinToStop',
                     'duration' : 15,
-                    'spins'    : 11,
+                    'spins'    : 9,
                     'callbackFinished' : alertPrize,
                     'callbackSound'    : playSound,   // Function to call when the tick sound is to be triggered.
                     'soundTrigger'     : 'pin'        // Specify pins are to trigger the sound, the other option is 'segment'.
                 },
                 'pins' :
                 {
-                    'number' : 11   // Number of pins. They space evenly around the wheel.
+                    'number' : 9   // Number of pins. They space evenly around the wheel.
                 }
             });
 
