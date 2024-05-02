@@ -969,7 +969,7 @@ section {
 }
 
 .portfolio .portfolio-item .portfolio-info {
-  opacity: 0;
+  opacity: 10;
   position: absolute;
   left: 15px;
   bottom: 0;
