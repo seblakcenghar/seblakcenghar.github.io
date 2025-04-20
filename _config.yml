@@ -1,2 +1,2 @@
 title: ""      # kosongkan judul
-theme: null    # tidak pakai tema Minima atau tema default
+theme: minima        # tidak pakai tema Minima atau tema default
