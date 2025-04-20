@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: custom
 head: |
   <link rel="stylesheet" href="/assets/css/custom.css">
 ---
