@@ -1,4 +1,5 @@
-<img src="assets/banner.png" alt="evolvecodex banner" width="100%">
+![evolvecodex banner](/assets/banner.png)
+
 
 # Hi there, I'm evolvecodex!
 

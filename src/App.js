@@ -2,20 +2,28 @@ import React, { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 function App() {
-  const [markdown, setMarkdown] = useState('');
+  const [md, setMd] = useState('');
 
   useEffect(() => {
-    // Fetch file readme.md dari folder public
     fetch('/readme.md')
-      .then((res) => res.text())
-      .then((text) => setMarkdown(text))
-      .catch((err) => console.error('Failed to load markdown:', err));
+      .then(r => r.text())
+      .then(setMd);
   }, []);
 
   return (
     <div style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto' }}>
-      {/* Render markdown sebagai HTML */}
-      <ReactMarkdown>{markdown}</ReactMarkdown>
+      <ReactMarkdown
+        components={{
+          img: ({node, ...props}) => (
+            <img
+              {...props}
+              style={{ maxWidth: '100%', height: 'auto', display: 'block', margin: '0 auto' }}
+            />
+          )
+        }}
+      >
+        {md}
+      </ReactMarkdown>
     </div>
   );
 }
