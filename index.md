@@ -41,9 +41,8 @@ Also experienced in building apps using **Flutter** and **Kotlin** on a function
 
 ### 📫 Contact Me
 
-- **Portfolio**: [yourportfolio.com](https://yourportfolio.com)  
-- **LinkedIn**: [linkedin.com/in/evolvecodex](https://linkedin.com/in/evolvecodex)  
-- **Email**: you@example.com
+- **LinkedIn**: [linkedin.com/in/evolvecodex](https://bit.ly/yandri-nurdiana)  
+- **Email**: yandrinurdiana@gmail.com
 
 ---
 
