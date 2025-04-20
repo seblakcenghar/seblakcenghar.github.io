@@ -1,3 +1,8 @@
+---
+layout: null
+head: |
+  <link rel="stylesheet" href="/assets/css/custom.css">
+---
 # Hi there, I'm evolvecodex!
 
 **Backend Developer** with strong experience in **Laravel**, **CodeIgniter**, **PHP**, and **MySQL**.  
